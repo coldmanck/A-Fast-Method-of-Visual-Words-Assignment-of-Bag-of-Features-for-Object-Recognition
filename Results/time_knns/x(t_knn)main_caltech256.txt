@@ -1,0 +1,2 @@
+(for only top 1 and for one time)
+KNN time = 0.1386

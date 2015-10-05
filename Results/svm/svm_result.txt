@@ -1,0 +1,79 @@
+Caltech101
+
+M=15, N=5
+Total nSV = 1530
+Accuracy = 24.8752% (1894/7614) (classification)
+Accuracy = 19.1883% (1461/7614) (classification)
+
+M=15, N=15
+Total nSV = 1530
+Accuracy = 24.8752% (1894/7614) (classification)
+Accuracy = 19.3985% (1477/7614) (classification)
+
+M=30, N=5
+Total nSV = 3060
+Accuracy = 24.1289% (1468/6084) (classification)
+Accuracy = 24.3425% (1481/6084) (classification)
+
+————————————————————————————————————————————————
+Caltech256
+
+M=15, N=5
+Total nSV = 3855
+Accuracy = 6.19019% (1656/26752) (classification)
+Accuracy = 2.75493% (737/26752) (classification)
+
+M=15, N=15
+Total nSV = 3855
+Accuracy = 6.19019% (1656/26752) (classification)
+Accuracy = 2.80353% (750/26752) (classification)
+
+M=30, N=5
+Total nSV = 7710
+Accuracy = 6.57728% (1506/22897) (classification)
+Accuracy = 3.8695% (886/22897) (classification)
+
+M=30, N=15
+Total nSV = 7710
+Accuracy = 6.57728% (1506/22897) (classification)
+Accuracy = 3.86077% (884/22897) (classification)
+
+M=30, N=30
+Total nSV = 7710
+Accuracy = 6.57728% (1506/22897) (classification)
+Accuracy = 3.65987% (838/22897) (classification)
+
+M=45, N=15
+Total nSV = 11565
+Accuracy = 5.93425% (1130/19042) (classification)
+Accuracy = 4.33778% (826/19042) (classification)
+
+M=45, N=30
+Total nSV = 11565
+Accuracy = 7.32591% (1395/19042) (classification)
+Accuracy = 5.13602% (978/19042) (classification)
+
+M=45, N=45
+Total nSV = 11565
+Accuracy = 5.93425% (1130/19042) (classification)
+Accuracy = 4.36404% (831/19042) (classification)
+
+M=60, N=15
+Total nSV = 15420
+Accuracy = 7.30888% (1110/15187) (classification)
+Accuracy = 7.24304% (1100/15187) (classification)
+
+M=60, N=30
+Total nSV = 15420
+Accuracy = 7.30888% (1110/15187) (classification)
+Accuracy = 5.18206% (787/15187) (classification)
+
+M=60, N=45
+Total nSV = 15420
+Accuracy = 7.30888% (1110/15187) (classification)
+Accuracy = 7.23645% (1099/15187) (classification)
+
+M=60, N=60
+Total nSV = 15420
+Accuracy = 7.30888% (1110/15187) (classification)
+Accuracy = 7.29571% (1108/15187) (classification)

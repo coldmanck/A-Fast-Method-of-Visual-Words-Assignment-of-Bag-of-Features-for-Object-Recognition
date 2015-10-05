@@ -1,0 +1,339 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 4.0.30319.18408
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2014/12/19 16:03:25.
+Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\3.1.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\3.1.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\3.1.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:07.37
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/3.1.0/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 4.0.30319.18408
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2014/12/19 16:03:33.
+Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\3.1.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\3.1.0\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\3.1.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/3.1.0/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec3735742059.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.0.30319.18408
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2014/12/19 16:03:35.
+Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\cmTryCompileExec3735742059.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3735742059.dir\Debug\".
+  Creating directory "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3735742059.dir\Debug\cmTryCompileExec3735742059.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3735742059.dir\Debug\\" /Fd"cmTryCompileExec3735742059.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3735742059.dir\Debug\\" /Fd"cmTryCompileExec3735742059.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3735742059.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3735742059.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3735742059.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3735742059.dir\Debug\testCCompiler.obj
+  cmTryCompileExec3735742059.vcxproj -> C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3735742059.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3735742059.dir\Debug\cmTryCompileExec3735742059.unsuccessfulbuild".
+  Touching "cmTryCompileExec3735742059.dir\Debug\cmTryCompileExec3735742059.lastbuildstate".
+Done Building Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\cmTryCompileExec3735742059.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec237440079.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.0.30319.18408
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2014/12/19 16:03:37.
+Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\cmTryCompileExec237440079.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec237440079.dir\Debug\".
+  Creating directory "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec237440079.dir\Debug\cmTryCompileExec237440079.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec237440079.dir\Debug\\" /Fd"cmTryCompileExec237440079.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec237440079.dir\Debug\\" /Fd"cmTryCompileExec237440079.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec237440079.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec237440079.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec237440079.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec237440079.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec237440079.vcxproj -> C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec237440079.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec237440079.dir\Debug\cmTryCompileExec237440079.unsuccessfulbuild".
+  Touching "cmTryCompileExec237440079.dir\Debug\cmTryCompileExec237440079.lastbuildstate".
+Done Building Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\cmTryCompileExec237440079.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec2693143919.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.0.30319.18408
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2014/12/19 16:03:38.
+Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\cmTryCompileExec2693143919.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2693143919.dir\Debug\".
+  Creating directory "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2693143919.dir\Debug\cmTryCompileExec2693143919.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2693143919.dir\Debug\\" /Fd"cmTryCompileExec2693143919.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2693143919.dir\Debug\\" /Fd"cmTryCompileExec2693143919.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2693143919.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2693143919.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2693143919.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2693143919.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec2693143919.vcxproj -> C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2693143919.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2693143919.dir\Debug\cmTryCompileExec2693143919.unsuccessfulbuild".
+  Touching "cmTryCompileExec2693143919.dir\Debug\cmTryCompileExec2693143919.lastbuildstate".
+Done Building Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\cmTryCompileExec2693143919.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec3698394565.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.0.30319.18408
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2014/12/19 16:03:40.
+Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\cmTryCompileExec3698394565.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3698394565.dir\Debug\".
+  Creating directory "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3698394565.dir\Debug\cmTryCompileExec3698394565.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3698394565.dir\Debug\\" /Fd"cmTryCompileExec3698394565.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3698394565.dir\Debug\\" /Fd"cmTryCompileExec3698394565.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3698394565.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3698394565.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3698394565.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3698394565.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec3698394565.vcxproj -> C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3698394565.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3698394565.dir\Debug\cmTryCompileExec3698394565.unsuccessfulbuild".
+  Touching "cmTryCompileExec3698394565.dir\Debug\cmTryCompileExec3698394565.lastbuildstate".
+Done Building Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\cmTryCompileExec3698394565.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec2795605479.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.0.30319.18408
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2014/12/19 16:03:44.
+Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\cmTryCompileExec2795605479.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2795605479.dir\Debug\".
+  Creating directory "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2795605479.dir\Debug\cmTryCompileExec2795605479.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2795605479.dir\Debug\\" /Fd"cmTryCompileExec2795605479.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2795605479.dir\Debug\\" /Fd"cmTryCompileExec2795605479.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2795605479.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2795605479.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2795605479.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2795605479.dir\Debug\src.obj
+  cmTryCompileExec2795605479.vcxproj -> C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2795605479.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2795605479.dir\Debug\cmTryCompileExec2795605479.unsuccessfulbuild".
+  Touching "cmTryCompileExec2795605479.dir\Debug\cmTryCompileExec2795605479.lastbuildstate".
+Done Building Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\cmTryCompileExec2795605479.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec3670615812.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=11.0"
+Microsoft (R) Build Engine version 4.0.30319.18408
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2014/12/19 16:03:45.
+Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\cmTryCompileExec3670615812.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3670615812.dir\Debug\".
+  Creating directory "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3670615812.dir\Debug\cmTryCompileExec3670615812.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3670615812.dir\Debug\\" /Fd"cmTryCompileExec3670615812.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3670615812.dir\Debug\\" /Fd"cmTryCompileExec3670615812.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3670615812.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3670615812.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3670615812.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3670615812.dir\Debug\src.obj
+  cmTryCompileExec3670615812.vcxproj -> C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3670615812.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3670615812.dir\Debug\cmTryCompileExec3670615812.unsuccessfulbuild".
+  Touching "cmTryCompileExec3670615812.dir\Debug\cmTryCompileExec3670615812.lastbuildstate".
+Done Building Project "C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\CMakeTmp\cmTryCompileExec3670615812.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

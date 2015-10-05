@@ -1,0 +1,29 @@
+150530
+Total nSV = 1517
+Accuracy = 43.6433% (3323/7614) (classification)
+Accuracy = 27.1868% (2070/7614) (classification)
+Best C = 2^15, Best gamma = 2^-5
+
+t_find_p =
+
+   4.1445e+03
+
+>> t_train
+
+t_train =
+
+    9.0109
+
+>> t_pre1
+
+t_pre1 =
+
+   49.0660
+
+>> t_pre2
+
+t_pre2 =
+
+   47.8504
+
+—————————————————————————————————————————————————————————————————

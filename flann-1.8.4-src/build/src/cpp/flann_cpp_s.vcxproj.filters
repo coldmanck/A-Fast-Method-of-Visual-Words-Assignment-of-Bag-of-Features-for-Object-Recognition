@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\denjo\Downloads\flann-1.8.4-src\src\cpp\flann\flann_cpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\denjo\Downloads\flann-1.8.4-src\src\cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3CDD72B8-7E8C-458D-BCB4-6CF6E9CD202E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

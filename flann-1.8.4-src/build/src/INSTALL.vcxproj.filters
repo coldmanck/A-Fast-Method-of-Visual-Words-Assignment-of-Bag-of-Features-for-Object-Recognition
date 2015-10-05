@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\17f594c2a374bed99b50c91909882326\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BDF0081E-1F59-411B-B53C-904DBC8D18A8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

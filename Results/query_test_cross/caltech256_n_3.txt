@@ -1,0 +1,12 @@
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:経過時間は 112071.063752 秒です。
+0.301
+0.405
+0.466
+0.510
+0.542
+0.568
+0.590
+0.608
+0.624
+0.637

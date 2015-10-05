@@ -1,0 +1,71 @@
+(n = 1)
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:
+flann_time =
+
+   95.6043
+
+   0.129
+   0.209
+   0.267
+   0.314
+   0.353
+   0.386
+   0.415
+   0.441
+   0.463
+   0.484
+
+( n = 10 )
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:
+flann_time =
+
+  108.4120
+
+  0.186
+  0.285
+  0.354
+  0.406
+  0.448
+  0.483
+  0.512
+  0.538
+  0.560
+  0.580
+
+(n=30)
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:
+flann_time =
+
+   87.3921
+
+   0.213
+   0.322
+   0.394
+   0.448
+   0.490
+   0.524
+   0.554
+   0.579
+   0.601
+   0.621
+
+(n=50)
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:
+flann_time =
+
+   49.7249
+
+   0.228
+   0.340
+   0.413
+   0.468
+   0.509
+   0.544
+   0.574
+   0.599
+   0.620
+   0.640

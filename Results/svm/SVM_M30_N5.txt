@@ -1,0 +1,5 @@
+150530
+C = 2^15, g = 2^(-5)
+Total nSV = 3019
+Accuracy = 53.4352% (3251/6084) (classification)
+Accuracy = 30.7364% (1870/6084) (classification)

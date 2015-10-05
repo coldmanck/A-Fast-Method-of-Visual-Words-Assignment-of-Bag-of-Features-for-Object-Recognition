@@ -1,0 +1,5 @@
+Total nSV = 3018
+Accuracy = 53.4845% (3254/6084) (classification)
+Accuracy = 31.5582% (1920/6084) (classification)
+Best C = 2^15, Best gamma = 2^-5
+Find P: 15370.422888, train: 30.6374, pre1: 30.637408, pre2: 78.195427.

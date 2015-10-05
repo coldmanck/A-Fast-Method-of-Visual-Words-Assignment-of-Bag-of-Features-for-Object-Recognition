@@ -1,0 +1,2450 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=mex 2015.4.28)  28 MAY 2015 00:42
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**nearest_neighbors.cpp
+(./nearest_neighbors.cpp
+This is MeX  Version 1.05  18 XII 1993  (B. Jackowski & M. Ry\'cko)
+! You can't use `macro parameter character #' in horizontal mode.
+l.30 #
+      if (_MSC_VER >= 1600)
+? qq
+OK, entering \batchmode...
+
+! Interruption.
+<to be read again> 
+                   i
+l.30 #i
+       f (_MSC_VER >= 1600)
+? q
+OK, entering \batchmode...
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.30 #if (_
+           MSC_VER >= 1600)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.31 #
+      include <yvals.h>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.32 #
+      define __STDC_UTF_16__
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.32 #define __
+               STDC_UTF_16__
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.32 #define __STDC_UTF_16__
+                            
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   ##
+l.33 #
+      endif
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.33 #
+      endif
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.34 #
+      include <mex.h>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.35 #
+      include <flann/flann.h>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.36 #
+      include <stdio.h>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.37 #
+      include <string.h>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.38 #
+      include<iostream>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.40 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.40 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.40 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.40 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (14.45627pt too wide) in paragraph at lines 29--40
+\teni define[]$ |
+
+\hbox(6.94444+5.77777)x469.75499
+.\teni d
+.\teni e
+.\teni f
+.\kern1.0764
+.\teni i
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.45     flann_
+               index_t index;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.47 }
+      ;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.48 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.51 static mxArray* to_
+                        mx_array(T value)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.56 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.56 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (275.23067pt too wide) in paragraph at lines 50--56
+[]\tenrm template <ty-pe-name T> sta-tic mxAr-ray* to$[]\teni x[]rray\tenrm (\t
+eni Tvalue\tenrm )[]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm t
+.\tenrm e
+.\tenrm m
+.\tenrm p
+.etc.
+
+! Misplaced alignment tab character &.
+l.61 ...const mxArray* mexParams, FLANNParameters&
+                                                   flannParams )
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.63     flannParams.algorithm = (flann_
+                                        algorithm_t)(int)*(mxGetPr(mxGetFiel...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.64 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.71     flannParams.centers_
+                             init = (flann_centers_init_t)(int)*(mxGetPr(mxG...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.73 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (7.35948pt too wide) in paragraph at lines 68--73
+\tenrm (\teni flann[]enters[]nit[]\tenrm )(\teni int\tenrm ) \tensy ^^C \tenrm 
+(\teni mxGetPr\tenrm (\teni mxGetField\tenrm (\teni mexParams; \tenrm 0\teni ; 
+\tenrm "\teni centers[]nit\tenrm "))); \teni flannParams:cb[]ndex \tenrm =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm (
+.\teni f
+.\kern1.0764
+.\teni l
+.\kern0.19678
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.75     flannParams.target_
+                            precision = (float)*(mxGetPr(mxGetField(mexParam...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.79 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (183.12457pt too wide) in paragraph at lines 74--79
+[]\tenrm // au-to-tu-ned flannParams.target$[]\teni recision \tenrm = (\teni fl
+oat\tenrm ) \tensy ^^C \tenrm (\teni mxGetPr\tenrm (\teni mxGetField\tenrm (\te
+ni mexParams; \tenrm 0\teni ; \tenrm "\teni target[]recision\tenrm "))); \teni 
+flannParams:build[]eight \tenrm =|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm /
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm a
+.etc.
+
+
+Overfull \hbox (3.1531pt too wide) in paragraph at lines 74--79
+\tenrm (\teni float\tenrm ) \tensy ^^C \tenrm (\teni mxGetPr\tenrm (\teni mxGet
+Field\tenrm (\teni mexParams; \tenrm 0\teni ; \tenrm "\teni build[]eight\tenrm 
+"))); \teni flannParams:memory[]eight \tenrm = (\teni float\tenrm ) \tensy ^^C|
+
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm (
+.\teni f
+.\kern1.0764
+.\teni l
+.\kern0.19678
+.etc.
+
+
+Overfull \hbox (258.72893pt too wide) in paragraph at lines 74--79
+\tenrm (\teni mxGetPr\tenrm (\teni mxGetField\tenrm (\teni mexParams; \tenrm 0\
+teni ; \tenrm "\teni memory[]eight\tenrm "))); \teni flannParams:sample[]ractio
+n \tenrm = (\teni float\tenrm ) \tensy ^^C \tenrm (\teni mxGetPr\tenrm (\teni m
+xGetField\tenrm (\teni mexParams; \tenrm 0\teni ; \tenrm "\teni sample[]raction
+\tenrm ")));$ |
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\tenrm (
+.\teni m
+.\teni x
+.\teni G
+.\teni e
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.81     flannParams.log_
+                         level = (flann_log_level_t)(int)*(mxGetPr(mxGetFiel...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.83 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (154.36612pt too wide) in paragraph at lines 80--83
+[]\tenrm // misc flannParams.log$[]\teni evel \tenrm = (\teni flann[]og[]evel[]
+\tenrm )(\teni int\tenrm ) \tensy ^^C \tenrm (\teni mxGetPr\tenrm (\teni mxGetF
+ield\tenrm (\teni mexParams; \tenrm 0\teni ; \tenrm "\teni log[]evel\tenrm ")))
+; \teni flannParams:random[]eed \tenrm =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm /
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm m
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.88     flannParams.max_
+                         neighbors = (int)*(mxGetPr(mxGetField(mexParams, 0,...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.90 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.91 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (6.32924pt too wide) in paragraph at lines 84--91
+[]\tenrm // se-arch flan-n-Pa-rams.checks = (int)*(mxGetPr(mxGetField(mexParams
+, 0,"checks"))); flan-n-Pa-rams.eps|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm /
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm s
+.etc.
+
+
+Overfull \hbox (59.16289pt too wide) in paragraph at lines 84--91
+\tenrm = (float)*(mxGetPr(mxGetField(mexParams, 0,"eps"))); flan-n-Pa-rams.sort
+ed = (int)*(mxGetPr(mxGetField(mexParams,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm =
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm (
+.\tenrm ^^M (ligature fl)
+.\tenrm o
+.etc.
+
+
+Overfull \hbox (117.60342pt too wide) in paragraph at lines 84--91
+\tenrm 0,"sor-ted"))); flannParams.max$[]\teni eighbors \tenrm = (\teni int\ten
+rm ) \tensy ^^C \tenrm (\teni mxGetPr\tenrm (\teni mxGetField\tenrm (\teni mexP
+arams; \tenrm 0\teni ; \tenrm "\teni max[]eighbors\tenrm "))); \teni flannParam
+s:cores \tenrm =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 0
+.\tenrm ,
+.\tenrm "
+.\tenrm s
+.\tenrm o
+.etc.
+
+! Misplaced alignment tab character &.
+l.92 ...ructToMatlabStruct( const FLANNParameters&
+                                                   flannParams )
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.94 ...gorithm", "checks", "eps", "sorted", "max_
+                                                  neighbors", "cores", "tree...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.94 ... "iterations", "centers_init", "cb_index"}
+                                                  ;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.96 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (241.99117pt too wide) in paragraph at lines 92--96
+\tenrm na-mes[] = "al-go-ri-thm", "checks", "eps", "sor-ted", "max$[]\teni eigh
+bors\tenrm "\teni ; \tenrm "\teni cores\tenrm "\teni ; \tenrm "\teni trees\tenr
+m "\teni ; \tenrm "\teni leaf[]ax[]ize\tenrm "\teni ; \tenrm "\teni branching\t
+enrm "\teni ; \tenrm "\teni iterations\tenrm "\teni ; \tenrm "\teni centers[]ni
+t\tenrm "\teni ; \tenrm "\teni cb[]ndex\tenrm "; \teni mxArray \tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm n
+.\tenrm a
+.\discretionary
+..\tenrm -
+.\tenrm m
+.\tenrm e
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.97     mxSetField(mexParams, 0, "algorithm", to_
+                                                  mx_array(flannParams.algor...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.103 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (1566.6914pt too wide) in paragraph at lines 97--103
+[]\tenrm mxSetField(mexParams, 0, "al-go-ri-thm", to$[]\teni x[]rray\tenrm (\te
+ni flannParams:algorithm\tenrm )); \teni mxSetField\tenrm (\teni mexParams; \te
+nrm 0\teni ; \tenrm "\teni checks\tenrm "\teni ; to[]x[]rray\tenrm (\teni flann
+Params:checks\tenrm )); \teni mxSetField\tenrm (\teni mexParams; \tenrm 0\teni 
+; \tenrm "\teni eps\tenrm "\teni ; to[]x[]rray\tenrm (\teni flannParams:eps\ten
+rm )); \teni mxSetField\tenrm (\teni mexParams; \tenrm 0\teni ; \tenrm "\teni s
+orted\tenrm "\teni ; to[]x[]rray\tenrm (\teni flannParams:sorted\tenrm )); \ten
+i mxSetField\tenrm (\teni mexParams; \tenrm 0\teni ; \tenrm "\teni max[]eighbor
+s\tenrm "\teni ; to[]x[]rray\tenrm (\teni flannParams:max[]eighbors\tenrm )); \
+teni mxSetField\tenrm (\teni mexParams; \tenrm 0\teni ; \tenrm "\teni cores\ten
+rm "\teni ; to[]x[]rray\tenrm (\teni flannParams:cores\tenrm ));$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm m
+.\tenrm x
+.\tenrm S
+.\tenrm e
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.104     mxSetField(mexParams, 0, "trees", to_
+                                               mx_array(flannParams.trees));
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.106 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (201.9776pt too wide) in paragraph at lines 104--106
+[]\tenrm mxSetField(mexParams, 0, "trees", to$[]\teni x[]rray\tenrm (\teni flan
+nParams:trees\tenrm )); \teni mxSetField\tenrm (\teni mexParams; \tenrm 0\teni 
+; \tenrm "\teni leaf[]ax[]ize\tenrm "\teni ; to[]x[]rray\tenrm (\teni flannPara
+ms:trees\tenrm ));$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm m
+.\tenrm x
+.\tenrm S
+.\tenrm e
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.107 ...mxSetField(mexParams, 0, "branching", to_
+                                                  mx_array(flannParams.branc...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.111 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (965.61246pt too wide) in paragraph at lines 107--111
+[]\tenrm mxSetField(mexParams, 0, "bran-ching", to$[]\teni x[]rray\tenrm (\teni
+ flannParams:branching\tenrm )); \teni mxSetField\tenrm (\teni mexParams; \tenr
+m 0\teni ; \tenrm "\teni iterations\tenrm "\teni ; to[]x[]rray\tenrm (\teni fla
+nnParams:iterations\tenrm )); \teni mxSetField\tenrm (\teni mexParams; \tenrm 0
+\teni ; \tenrm "\teni centers[]nit\tenrm "\teni ; to[]x[]rray\tenrm (\teni flan
+nParams:centers[]nit\tenrm )); \teni mxSetField\tenrm (\teni mexParams; \tenrm 
+0\teni ; \tenrm "\teni cb[]ndex\tenrm "\teni ; to[]x[]rray\tenrm (\teni flannPa
+rams:cb[]ndex\tenrm ));$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm m
+.\tenrm x
+.\tenrm S
+.\tenrm e
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.116 static void check_
+                        allowed_type(const mxArray* datasetMat)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.118     if (!mxIsSingle(datasetMat) &
+                                       &
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.118     if (!mxIsSingle(datasetMat) &&
+                                        
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.119         !mxIsDouble(datasetMat) &
+                                       &
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.119         !mxIsDouble(datasetMat) &&
+                                        
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.120         !mxIsUint8(datasetMat) &
+                                      &
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.120         !mxIsUint8(datasetMat) &&
+                                       
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.126 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (905.46262pt too wide) in paragraph at lines 116--126
+[]\tenrm static void check$[]\teni llowed[]ype\tenrm (\teni constmxArray \tensy
+ ^^C \teni datasetMat\tenrm )[]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm s
+.\tenrm t
+.\tenrm a
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.132 static void _
+                   find_nn(int nOutArray, mxArray* OutArray[], int nInArray,...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.136 ...t number of input arguments, expecting:\n
+                                                  "
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.139 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.139 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (58.41249pt too wide) in paragraph at lines 128--139
+\tenrm in-di-ces(matrix), di-sts(matrix) */ sta-tic void $[]\teni ind[]n\tenrm 
+(\teni intnOutArray; mxArray \tensy ^^C \teni OutArray\tenrm []\teni ; intnInAr
+ray; constmxArray \tensy ^^C|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\tenrm i
+.\tenrm n
+.\discretionary
+..\tenrm -
+.\tenrm d
+.\tenrm i
+.etc.
+
+
+Overfull \hbox (355.84032pt too wide) in paragraph at lines 128--139
+\teni InArray\tenrm [])[]$ |
+
+\hbox(7.5+2.5)x469.75499
+.\teni I
+.\kern0.7847
+.\teni n
+.\teni A
+.\teni r
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.146     check_
+                allowed_type(datasetMat);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.148 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+ [1]
+Overfull \hbox (10.12093pt too wide) in paragraph at lines 149--152
+[]\tenrm int dco-unt = mxGetN(datasetMat); int length = mxGetM(datasetMat); int
+ tco-unt = mxGetN(testsetMat); |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm n
+.\kern-0.27779
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (18.80165pt too wide) in paragraph at lines 159--163
+[]\tenrm if ((mxGetM(nnMat)!=1)||(mxGetN(nnMat)!=1)|| !mxI-sNu-me-ric(nnMat))  
+me-xEr-rMsg-Txt("Number|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm f
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm (
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.178     const clock_
+                      t begin_time = clock();
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.183 ...gth,testset, tcount, result, dists, nn, &
+                                                  p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.189 ...th,testset, tcount, result, ddists, nn, &
+                                                  p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.195 ...gth,testset, tcount, result, dists, nn, &
+                                                  p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.201 ...gth,testset, tcount, result, dists, nn, &
+                                                  p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.204 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (4892.68164pt too wide) in paragraph at lines 177--204
+[]\tenrm /* do the se-arch */ const clock$[]\teni begin[]ime \tenrm = \teni clo
+ck\tenrm (); \teni if\tenrm (\teni mxIsSingle\tenrm (\teni datasetMat\tenrm ))[
+]\teni elseif\tenrm (\teni mxIsDouble\tenrm (\teni datasetMat\tenrm ))[]\teni e
+lseif\tenrm (\teni mxIsUint\tenrm 8(\teni datasetMat\tenrm ))[]\teni elseif\ten
+rm (\teni mxIsInt\tenrm 32(\teni datasetMat\tenrm ))[]\teni cout <<|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm d
+.etc.
+
+
+Overfull \hbox (1.55157pt too wide) in paragraph at lines 205--207
+[]\tenrm /* Al-lo-cate me-mory for Out-put Ma-trix */ OutAr-ray[0] = mxCre-ate-
+Do-uble-Ma-trix(nn, tco-unt, mxREAL); |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm A
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.240 static void _
+                   index_find_nn(int nOutArray, mxArray* OutArray[], int nIn...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.250 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.250 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (74.98717pt too wide) in paragraph at lines 236--250
+\tenrm di-ces(matrix), di-sts(matrix) */ sta-tic void $[]\teni ndex[]ind[]n\ten
+rm (\teni intnOutArray; mxArray \tensy ^^C \teni OutArray\tenrm []\teni ; intnI
+nArray; constmxArray \tensy ^^C|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\tenrm d
+.\tenrm i
+.\discretionary
+..\tenrm -
+.\tenrm c
+.\tenrm e
+.etc.
+
+
+Overfull \hbox (580.47647pt too wide) in paragraph at lines 236--250
+\teni InArray\tenrm [])[]$ |
+
+\hbox(7.5+2.5)x469.75499
+.\teni I
+.\kern0.7847
+.\teni n
+.\teni A
+.\teni r
+.etc.
+
+
+Overfull \hbox (25.34332pt too wide) in paragraph at lines 251--253
+[]\tenrm const mxAr-ray* in-de-xMat = In-Ar-ray[0]; Ty-pe-dIn-dex* ty-pe-dIn-de
+x = *(Ty-pe-dIn-dex**)mxGetData(indexMat); |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm c
+.\tenrm o
+.\tenrm n
+.\tenrm s
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.255     check_
+                allowed_type(testsetMat);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.256 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.275     const clock_
+                      t begin_time_2 = clock();
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.282 ...dex,testset, tcount, result, dists, nn, &
+                                                  p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.290 ...ex,testset, tcount, result, ddists, nn, &
+                                                  p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.298 ...dex,testset, tcount, result, dists, nn, &
+                                                  p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.306 ...dex,testset, tcount, result, dists, nn, &
+                                                  p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.309 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (5661.62543pt too wide) in paragraph at lines 275--309
+[]\tenrm const clock$[]\teni begin[]ime[] \tenrm = \teni clock\tenrm (); \teni 
+if\tenrm (\teni mxIsSingle\tenrm (\teni testsetMat\tenrm ))[]\teni elseif\tenrm
+ (\teni mxIsDouble\tenrm (\teni testsetMat\tenrm ))[]\teni elseif\tenrm (\teni 
+mxIsUint\tenrm 8(\teni testsetMat\tenrm ))[]\teni elseif\tenrm (\teni mxIsInt\t
+enrm 32(\teni testsetMat\tenrm ))[]\teni cout <<|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm c
+.\tenrm o
+.\tenrm n
+.\tenrm s
+.etc.
+
+
+Overfull \hbox (1.55157pt too wide) in paragraph at lines 310--312
+[]\tenrm /* Al-lo-cate me-mory for Out-put Ma-trix */ OutAr-ray[0] = mxCre-ate-
+Do-uble-Ma-trix(nn, tco-unt, mxREAL); |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm A
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.345 static void _
+                   build_index(int nOutArray, mxArray* OutArray[], int nInAr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.357 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.357 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (89.44356pt too wide) in paragraph at lines 341--357
+\tenrm pa-rams (struct), spe-edup(double) */ sta-tic void $[]\teni uild[]ndex\t
+enrm (\teni intnOutArray; mxArray \tensy ^^C \teni OutArray\tenrm []\teni ; int
+nInArray; constmxArray \tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm p
+.\tenrm a
+.\discretionary
+..\tenrm -
+.\tenrm r
+.\tenrm a
+.etc.
+
+
+Overfull \hbox (1033.41704pt too wide) in paragraph at lines 341--357
+\teni InArray\tenrm [])[]$ |
+
+\hbox(7.5+2.5)x469.75499
+.\teni I
+.\kern0.7847
+.\teni n
+.\teni A
+.\teni r
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.374         typedIndex->index = flann_
+                                        build_index_float(dataset,dcount,len...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.374 ...uild_index_float(dataset,dcount,length, &
+                                                  speedup, &p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.374 ..._float(dataset,dcount,length, &speedup, &
+                                                  p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten $.
+l.376     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced alignment tab character &.
+l.379 ...ild_index_double(dataset,dcount,length, &
+                                                  speedup, &p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.379 ...double(dataset,dcount,length, &speedup, &
+                                                  p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.384 ...build_index_byte(dataset,dcount,length, &
+                                                  speedup, &p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.384 ...x_byte(dataset,dcount,length, &speedup, &
+                                                  p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.389 ..._build_index_int(dataset,dcount,length, &
+                                                  speedup, &p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.389 ...ex_int(dataset,dcount,length, &speedup, &
+                                                  p);
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.392 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (2807.3745pt too wide) in paragraph at lines 372--392
+\tenrm flann$[]\teni uild[]ndex[]loat\tenrm (\teni dataset; dcount; length; spe
+edup; p\tenrm ); \teni typedIndex\tensy ^^@ \teni > type \tenrm = \teni FLANN[]
+LOAT\tenrm 32; \teni elseif\tenrm (\teni mxIsDouble\tenrm (\teni datasetMat\ten
+rm ))[]\teni elseif\tenrm (\teni mxIsUint\tenrm 8(\teni datasetMat\tenrm ))[]\t
+eni elseif\tenrm (\teni mxIsInt\tenrm 32(\teni datasetMat\tenrm ))[]$ |
+
+\hbox(7.5+2.86108)x469.75499
+.\tenrm ^^M (ligature fl)
+.\tenrm a
+.\tenrm n
+.\tenrm n
+.\mathon
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.394     if (sizeof(flann_
+                           index_t)==4) {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.400 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (40.64822pt too wide) in paragraph at lines 393--400
+[]\tenrm mxClassID clas-sID; if (sizeof(flann$[]\teni ndex[]\tenrm ) == 4)[]\te
+ni elseif\tenrm (\teni sizeof\tenrm (\teni flann[]ndex[]\tenrm ) ==|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm m
+.\tenrm x
+.\tenrm C
+.\tenrm l
+.etc.
+
+ [2]
+Overfull \hbox (14.74599pt too wide) in paragraph at lines 401--403
+[]\tenrm /* Al-lo-cate me-mory for Out-put Ma-trix */ OutAr-ray[0] = mxCre-ate-
+Nu-me-ric-Ma-trix(1, 1, clas-sID, mxREAL); |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm A
+.etc.
+
+
+Overfull \hbox (54.69055pt too wide) in paragraph at lines 404--407
+[]\tenrm /* Get po-in-ter to Out-put ma-trix and store re-sult*/ Ty-pe-dIn-dex*
+* pOut = (Ty-pe-dIn-dex**)mxGetData(OutArray[0]);|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm G
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.422 static void _
+                   free_index(int nOutArray, mxArray* OutArray[], int nInArr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.425     if(!((nInArray == 1)&
+                               &((mxGetN(InArray[0])*mxGetM(InArray[0]))==1)...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.425     if(!((nInArray == 1)&&
+                                ((mxGetN(InArray[0])*mxGetM(InArray[0]))==1)...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.443 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (110.90775pt too wide) in paragraph at lines 419--443
+[]\tenrm /** * In-puts: in-dex (in-dex po-in-ter) */ sta-tic void $[]\teni ree[
+]ndex\tenrm (\teni intnOutArray; mxArray \tensy ^^C \teni OutArray\tenrm []\ten
+i ; intnInArray; constmxArray \tensy ^^C|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+
+Overfull \hbox (2639.28796pt too wide) in paragraph at lines 419--443
+\teni InArray\tenrm [])[]$ |
+
+\hbox(7.5+2.86108)x469.75499
+.\teni I
+.\kern0.7847
+.\teni n
+.\teni A
+.\teni r
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.447 static void _
+                   set_log_level(int nOutArray, mxArray* OutArray[], int nIn...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.452 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.452 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (41.5713pt too wide) in paragraph at lines 444--452
+[]\tenrm /** * In-puts: le-vel */ sta-tic void $[]\teni et[]og[]evel\tenrm (\te
+ni intnOutArray; mxArray \tensy ^^C \teni OutArray\tenrm []\teni ; intnInArray;
+ constmxArray \tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+
+Overfull \hbox (0.57552pt too wide) in paragraph at lines 444--452
+\teni InArray\tenrm [])[]$ |
+
+\hbox(7.5+2.5)x469.75499
+.\teni I
+.\kern0.7847
+.\teni n
+.\teni A
+.\teni r
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.458     int log_
+                  level = (int)(*mxGetPr(llMat));
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.459 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.460     flann_
+                log_verbosity(log_level);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.461 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Too many }'s.
+l.462 }
+       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.465  * Inputs: type (flann_
+                             distance_t), order(int)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.469     if( ((nInArray != 1)&
+                               &(nInArray != 2))) {
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.469     if( ((nInArray != 1)&&
+                                (nInArray != 2))) {
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.472 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.472 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (193.13785pt too wide) in paragraph at lines 464--472
+\teni OutArray\tenrm []\teni ; intnInArray; constmxArray \tensy ^^C \teni InArr
+ay\tenrm [])[]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni O
+.\kern0.27779
+.\teni u
+.\teni t
+.\teni A
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.478     int distance_
+                       type = (int)(*mxGetPr(distMat));
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.479 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (36.3572pt too wide) in paragraph at lines 475--479
+[]\tenrm if ((mxGetM(distMat)!=1)||(mxGetN(distMat)!=1)|| !mxI-sNu-me-ric(distM
+at))  me-xEr-rMsg-Txt("Distance|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm f
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm (
+.etc.
+
+
+Overfull \hbox (111.85735pt too wide) in paragraph at lines 480--486
+[]\tenrm int or-der = 0; if (nI-nAr-ray==2)  const mxAr-ray* ord-Mat = In-Ar-ra
+y[1]; if ((mxGetM(ordMat)!=1)||(mxGetN(ordMat)!=1)|||
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm n
+.\kern-0.27779
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.489     flann_
+                set_distance_type((flann_distance_t)distance_type, order);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.490 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.491 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.496 static void _
+                   save_index(int nOutArray, mxArray* OutArray[], int nInArr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.502 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.502 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (292.4723pt too wide) in paragraph at lines 493--502
+\teni OutArray\tenrm []\teni ; intnInArray; constmxArray \tensy ^^C \teni InArr
+ay\tenrm [])[]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni O
+.\kern0.27779
+.\teni u
+.\teni t
+.\teni A
+.etc.
+
+
+Overfull \hbox (25.34332pt too wide) in paragraph at lines 503--505
+[]\tenrm const mxAr-ray* in-de-xMat = In-Ar-ray[0]; Ty-pe-dIn-dex* ty-pe-dIn-de
+x = *(Ty-pe-dIn-dex**)mxGetData(indexMat); |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm c
+.\tenrm o
+.\tenrm n
+.\tenrm s
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.513     if (typedIndex->type==FLANN_
+                                      FLOAT32) {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.525 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.526 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (85.25826pt too wide) in paragraph at lines 513--526
+[]\tenrm if (typedIndex->type==FLANN$[]\teni LOAT\tenrm 32)[]\teni elseif\tenrm
+ (\teni typedIndex\tensy ^^@ \teni >|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm f
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm (
+.etc.
+
+
+Overfull \hbox (10.30151pt too wide) in paragraph at lines 513--526
+\teni type \tenrm == \teni FLANN[]LOAT\tenrm 64)[]\teni elseif\tenrm (\teni typ
+edIndex\tensy ^^@ \teni >|
+
+\hbox(7.5+2.5)x469.75499
+.\teni t
+.\teni y
+.\kern0.35878
+.\teni p
+.\teni e
+.etc.
+
+
+Overfull \hbox (27.29984pt too wide) in paragraph at lines 513--526
+\teni type \tenrm == \teni FLANN[]INT\tenrm 8)[]\teni elseif\tenrm (\teni typed
+Index\tensy ^^@ \teni > type \tenrm ==|
+
+\hbox(7.5+2.5)x469.75499
+.\teni t
+.\teni y
+.\kern0.35878
+.\teni p
+.\teni e
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.531 static void _
+                   load_index(int nOutArray, mxArray* OutArray[], int nInArr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.542 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.542 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (124.8348pt too wide) in paragraph at lines 528--542
+[]\tenrm /** * In-puts: fi-le-name (string), ma-trix */ sta-tic void $[]\teni o
+ad[]ndex\tenrm (\teni intnOutArray; mxArray \tensy ^^C \teni OutArray\tenrm []\
+teni ; intnInArray; constmxArray \tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+
+Overfull \hbox (600.00795pt too wide) in paragraph at lines 528--542
+\teni InArray\tenrm [])[]$ |
+
+\hbox(7.51782+2.5)x469.75499
+.\teni I
+.\kern0.7847
+.\teni n
+.\teni A
+.\teni r
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.544     check_
+                allowed_type(datasetMat);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.545 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.553         typedIndex->index = flann_
+                                        load_index_float(filename, dataset,d...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.555     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.571 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (2784.76195pt too wide) in paragraph at lines 551--571
+\tenrm flann$[]\teni oad[]ndex[]loat\tenrm (\teni filename; dataset; dcount; le
+ngth\tenrm ); \teni typedIndex\tensy ^^@ \teni > type \tenrm = \teni FLANN[]LOA
+T\tenrm 32; \teni elseif\tenrm (\teni mxIsDouble\tenrm (\teni datasetMat\tenrm 
+))[]\teni elseif\tenrm (\teni mxIsUint\tenrm 8(\teni datasetMat\tenrm ))[]\teni
+ elseif\tenrm (\teni mxIsInt\tenrm 32(\teni datasetMat\tenrm ))[]$ |
+
+\hbox(7.5+2.86108)x469.75499
+.\tenrm ^^M (ligature fl)
+.\tenrm a
+.\tenrm n
+.\tenrm n
+.\mathon
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.573     if (sizeof(flann_
+                           index_t)==4) {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.579 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (40.64822pt too wide) in paragraph at lines 572--579
+[]\tenrm mxClassID clas-sID; if (sizeof(flann$[]\teni ndex[]\tenrm ) == 4)[]\te
+ni elseif\tenrm (\teni sizeof\tenrm (\teni flann[]ndex[]\tenrm ) ==|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm m
+.\tenrm x
+.\tenrm C
+.\tenrm l
+.etc.
+
+
+Overfull \hbox (14.74599pt too wide) in paragraph at lines 580--582
+[]\tenrm /* Al-lo-cate me-mory for Out-put Ma-trix */ OutAr-ray[0] = mxCre-ate-
+Nu-me-ric-Ma-trix(1, 1, clas-sID, mxREAL); |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm A
+.etc.
+
+
+Overfull \hbox (54.69055pt too wide) in paragraph at lines 583--587
+[]\tenrm /* Get po-in-ter to Out-put ma-trix and store re-sult*/ Ty-pe-dIn-dex*
+* pOut = (Ty-pe-dIn-dex**)mxGetData(OutArray[0]);|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm G
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.595 static mexFunctionEntry _
+                               _functionTable[] = {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.595 static mexFunctionEntry __
+                                functionTable[] = {
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Misplaced alignment tab character &.
+l.596     { "find_nn", &
+                        _find_nn},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.597     { "build_index", &
+                            _build_index},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.598     { "index_find_nn", &
+                              _index_find_nn},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.599     { "free_index", &
+                           _free_index},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.600     { "save_index", &
+                           _save_index},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.601     { "load_index", &
+                           _load_index},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.602     { "set_log_level", &
+                              _set_log_level},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.603     { "set_distance_type", &
+                                  _set_distance_type},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.605 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.605 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (460.49367pt too wide) in paragraph at lines 595--605
+[]\tenrm static me-xFunc-tio-nEn-try $[]$ |
+
+\hbox(6.88889+3.8389)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm s
+.\tenrm t
+.\tenrm a
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.607 static void print_
+                        selector_error()
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.611 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.611 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.614     for (int i=0; i<sizeof(_
+                                  _functionTable)/sizeof(mexFunctionEntry); ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.614     for (int i=0; i<sizeof(__
+                                   functionTable)/sizeof(mexFunctionEntry); ...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.622 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.622 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (293.33208pt too wide) in paragraph at lines 612--622
+[]\tenrm sprintf(msg, "msg = buf+strlen(buf); for (int i=0; i<sizeof($[]$ |
+
+\hbox(7.5+3.8389)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm s
+.\tenrm p
+.\tenrm r
+.\tenrm i
+.etc.
+
+! Too many }'s.
+l.624 }
+       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.631         print_
+                    selector_error();
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.632     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.635 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (158.03195pt too wide) in paragraph at lines 627--635
+\tenrm get the se-lec-tor if((nInArray == 0)|| !mxI-sChar(InArray[0]))  print$[
+]\teni elector[]rror\tenrm (); \teni charselector\tenrm [128]; \teni mxGetStrin
+g\tenrm (\teni InArray\tenrm [0]\teni ; selector; \tenrm 128);$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm g
+.\tenrm e
+.\tenrm t
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.638     for (idx = 0; idx<sizeof(_
+                                    _functionTable)/sizeof(mexFunctionEntry)...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.638     for (idx = 0; idx<sizeof(__
+                                     functionTable)/sizeof(mexFunctionEntry)...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.639         if (strcmp(__
+                           functionTable[idx].name, selector)==0) {
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.643     if (idx==sizeof(__
+                            functionTable)/sizeof(mexFunctionEntry)) {
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.646 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.646 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.646 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.646 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (548.53075pt too wide) in paragraph at lines 636--646
+[]\tenrm // check if func-tion with that name is pre-sent int idx = 0; for (idx
+ = 0; idx<sizeof($[]$ |
+
+\hbox(7.5+5.86668)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm /
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm c
+.etc.
+
+ [3]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.648     _
+           _functionTable[idx].function(nOutArray,OutArray, nInArray-1, InAr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.648     __
+            functionTable[idx].function(nOutArray,OutArray, nInArray-1, InAr...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+)
+! Emergency stop.
+<*> nearest_neighbors.cpp
+                         
+*** (job aborted, no legal \end found)
+
+Output written on nearest_neighbors.dvi (3 pages, 32228 bytes).

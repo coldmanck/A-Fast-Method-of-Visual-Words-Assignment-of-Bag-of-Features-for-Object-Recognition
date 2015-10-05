@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1D8A78F4-A1ED-4D53-9A0E-F7EB686985B7}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>doc</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\denjo\Downloads\flann-1.8.4-src\src\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\denjo\Downloads\flann-1.8.4-src\src\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\denjo\Downloads\flann-1.8.4-src\src\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\denjo\Downloads\flann-1.8.4-src\src\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\denjo\Downloads\flann-1.8.4-src\doc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/denjo/Downloads/flann-1.8.4-src/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/denjo/Downloads/flann-1.8.4-src -BC:/Users/denjo/Downloads/flann-1.8.4-src/build --check-stamp-file C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/doc/CMakeLists.txt;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindLATEX.cmake;C:\Users\denjo\Downloads\flann-1.8.4-src\cmake\UseLATEX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindLATEX.cmake;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\references.bib;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/denjo/Downloads/flann-1.8.4-src/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/denjo/Downloads/flann-1.8.4-src -BC:/Users/denjo/Downloads/flann-1.8.4-src/build --check-stamp-file C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/doc/CMakeLists.txt;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindLATEX.cmake;C:\Users\denjo\Downloads\flann-1.8.4-src\cmake\UseLATEX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindLATEX.cmake;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\references.bib;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/denjo/Downloads/flann-1.8.4-src/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/denjo/Downloads/flann-1.8.4-src -BC:/Users/denjo/Downloads/flann-1.8.4-src/build --check-stamp-file C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/doc/CMakeLists.txt;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindLATEX.cmake;C:\Users\denjo\Downloads\flann-1.8.4-src\cmake\UseLATEX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindLATEX.cmake;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\references.bib;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/denjo/Downloads/flann-1.8.4-src/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/denjo/Downloads/flann-1.8.4-src -BC:/Users/denjo/Downloads/flann-1.8.4-src/build --check-stamp-file C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/doc/CMakeLists.txt;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindLATEX.cmake;C:\Users\denjo\Downloads\flann-1.8.4-src\cmake\UseLATEX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindLATEX.cmake;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\references.bib;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\6701686e058835e32005fae21a580569\cmake-gui.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating images/cmake-gui.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/doc/images/cmake-gui.png C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/images/cmake-gui.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/6701686e058835e32005fae21a580569/cmake-gui.png.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\images\cmake-gui.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\images\cmake-gui.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating images/cmake-gui.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/doc/images/cmake-gui.png C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/images/cmake-gui.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/6701686e058835e32005fae21a580569/cmake-gui.png.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\images\cmake-gui.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\images\cmake-gui.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating images/cmake-gui.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/doc/images/cmake-gui.png C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/images/cmake-gui.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/6701686e058835e32005fae21a580569/cmake-gui.png.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\images\cmake-gui.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\images\cmake-gui.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating images/cmake-gui.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/doc/images/cmake-gui.png C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/images/cmake-gui.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/6701686e058835e32005fae21a580569/cmake-gui.png.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\images\cmake-gui.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\images\cmake-gui.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\7e71169f50d56a2e94ada725da941550\manual.tex.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating manual.tex</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/doc/manual.tex C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/7e71169f50d56a2e94ada725da941550/manual.tex.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\manual.tex;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.tex</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating manual.tex</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/doc/manual.tex C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/7e71169f50d56a2e94ada725da941550/manual.tex.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\manual.tex;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.tex</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating manual.tex</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/doc/manual.tex C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/7e71169f50d56a2e94ada725da941550/manual.tex.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\manual.tex;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.tex</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating manual.tex</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/doc/manual.tex C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/7e71169f50d56a2e94ada725da941550/manual.tex.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\manual.tex;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.tex</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\7e71169f50d56a2e94ada725da941550\references.bib.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating references.bib</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/doc/references.bib C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/references.bib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/7e71169f50d56a2e94ada725da941550/references.bib.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\references.bib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\references.bib</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating references.bib</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/doc/references.bib C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/references.bib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/7e71169f50d56a2e94ada725da941550/references.bib.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\references.bib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\references.bib</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating references.bib</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/doc/references.bib C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/references.bib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/7e71169f50d56a2e94ada725da941550/references.bib.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\references.bib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\references.bib</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating references.bib</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/doc/references.bib C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/references.bib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/7e71169f50d56a2e94ada725da941550/references.bib.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\references.bib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\references.bib</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\7e71169f50d56a2e94ada725da941550\manual.pdf.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating manual.pdf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/pdflatex.exe -interaction=batchmode manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/bibtex.exe manual
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/pdflatex.exe -interaction=batchmode manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/pdflatex.exe -interaction=batchmode manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/7e71169f50d56a2e94ada725da941550/manual.pdf.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\images\cmake-gui.png;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.tex;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\references.bib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.pdf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating manual.pdf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/pdflatex.exe -interaction=batchmode manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/bibtex.exe manual
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/pdflatex.exe -interaction=batchmode manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/pdflatex.exe -interaction=batchmode manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/7e71169f50d56a2e94ada725da941550/manual.pdf.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\images\cmake-gui.png;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.tex;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\references.bib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.pdf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating manual.pdf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/pdflatex.exe -interaction=batchmode manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/bibtex.exe manual
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/pdflatex.exe -interaction=batchmode manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/pdflatex.exe -interaction=batchmode manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/7e71169f50d56a2e94ada725da941550/manual.pdf.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\images\cmake-gui.png;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.tex;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\references.bib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.pdf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating manual.pdf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/pdflatex.exe -interaction=batchmode manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/bibtex.exe manual
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/pdflatex.exe -interaction=batchmode manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E chdir C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc C:/w32tex/bin/pdflatex.exe -interaction=batchmode manual.tex
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/7e71169f50d56a2e94ada725da941550/manual.pdf.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\images\cmake-gui.png;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.tex;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\references.bib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.pdf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\67569d50d32c04dca9b313a41da0e3ae\manual.pdf.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../../doc/manual.pdf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/manual.pdf C:/Users/denjo/Downloads/flann-1.8.4-src/doc/manual.pdf
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/67569d50d32c04dca9b313a41da0e3ae/manual.pdf.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.pdf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\doc\manual.pdf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../../doc/manual.pdf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/manual.pdf C:/Users/denjo/Downloads/flann-1.8.4-src/doc/manual.pdf
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/67569d50d32c04dca9b313a41da0e3ae/manual.pdf.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.pdf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\doc\manual.pdf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../../doc/manual.pdf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/manual.pdf C:/Users/denjo/Downloads/flann-1.8.4-src/doc/manual.pdf
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/67569d50d32c04dca9b313a41da0e3ae/manual.pdf.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.pdf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\doc\manual.pdf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../../doc/manual.pdf</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/denjo/Downloads/flann-1.8.4-src/build/doc/manual.pdf C:/Users/denjo/Downloads/flann-1.8.4-src/doc/manual.pdf
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/67569d50d32c04dca9b313a41da0e3ae/manual.pdf.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\manual.pdf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\doc\manual.pdf</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\denjo\Downloads\flann-1.8.4-src\build\CMakeFiles\ab884514a5d293577f7dcbbb1b5717f2\doc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/ab884514a5d293577f7dcbbb1b5717f2/doc.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\manual.pdf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\CMakeFiles\doc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/ab884514a5d293577f7dcbbb1b5717f2/doc.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\manual.pdf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\CMakeFiles\doc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/ab884514a5d293577f7dcbbb1b5717f2/doc.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\manual.pdf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\CMakeFiles\doc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/denjo/Downloads/flann-1.8.4-src/build/CMakeFiles/ab884514a5d293577f7dcbbb1b5717f2/doc.rule;C:\Users\denjo\Downloads\flann-1.8.4-src\doc\manual.pdf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\CMakeFiles\doc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\denjo\Downloads\flann-1.8.4-src\build\doc\CMakeFiles\doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/denjo/Downloads/flann-1.8.4-src/build/ZERO_CHECK.vcxproj">
+      <Project>6E7FF855-DFD1-48C4-8834-D335B0B89735</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,16 @@
+(After regularized) Searching the nearest neibogher...
+At exhaustive searching:
+knn_time =
+
+   2.6718e+04
+
+   0.211
+   0.310
+   0.372
+   0.416
+   0.449
+   0.476
+   0.498
+   0.517
+   0.534
+   0.548

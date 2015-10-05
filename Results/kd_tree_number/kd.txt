@@ -1,0 +1,133 @@
+Caltech101
+—— [n_of_extract] = 1 ——
+
+(kd = 1)
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:経過時間は 4618.119627 秒です。
+0.245
+0.338
+0.396
+0.439
+0.472
+0.499
+0.521
+0.541
+0.558
+0.573
+
+(kd = 2 test1)
+At FLANN searching:経過時間は 4452.515850 秒です。
+0.250
+0.345
+0.404
+0.447
+0.480
+0.507
+0.530
+0.549
+0.566
+0.582
+
+(kd = 2 test2)
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:経過時間は 4522.418609 秒です。
+0.250
+0.345
+0.404
+0.447
+0.480
+0.507
+0.530
+0.549
+0.566
+0.582
+
+(kd = 4)
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:経過時間は 4072.278321 秒です。
+0.254
+0.349
+0.409
+0.452
+0.485
+0.513
+0.535
+0.555
+0.572
+0.587
+
+(kd = 8)
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:経過時間は 4951.594662 秒です。
+0.257
+0.353
+0.413
+0.457
+0.490
+0.517
+0.540
+0.560
+0.577
+0.592
+
+—— [n_of_extract] = 5 ——
+(kd = 2)
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:経過時間は 5118.661050 秒です。
+0.281
+0.381
+0.441
+0.484
+0.517
+0.543
+0.565
+0.584
+0.600
+0.614
+
+(kd = 4)
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:経過時間は 4831.726155 秒です。
+0.285
+0.386
+0.447
+0.490
+0.523
+0.549
+0.571
+0.590
+0.606
+0.620
+
+(kd = 8)
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:経過時間は 5877.216202 秒です。
+0.289
+0.391
+0.452
+0.495
+0.528
+0.555
+0.577
+0.595
+0.611
+0.625
+
+(kd = 16)
+At FLANN searching:経過時間は 6527.838291 秒です。
+0.292
+0.395
+0.457
+0.500
+0.533
+0.559
+0.581
+0.599
+0.616
+0.630
+
+Caltech256
+
+CIFAR-10
+
+CIFAR-100

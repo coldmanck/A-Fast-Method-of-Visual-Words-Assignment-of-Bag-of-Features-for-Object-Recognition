@@ -1,0 +1,26 @@
+(After regularized) Searching the nearest neibogher...
+4.56426e+07
+At FLANN searching:
+0.218
+0.317
+0.377
+0.420
+0.454
+0.482
+0.505
+0.524
+0.540
+0.555
+
+At exhaustive searching:
+0.241
+0.350
+0.416
+0.462
+0.499
+0.527
+0.551
+0.572
+0.589
+0.604
+Flann time = 46.093674, exhaustive time = 36220.887548

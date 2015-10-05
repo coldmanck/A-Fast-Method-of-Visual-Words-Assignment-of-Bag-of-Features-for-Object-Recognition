@@ -1,0 +1,24 @@
+Flann time = 751.047416, exhaustive time = 52722.207626
+[P1, LQ, t_id, rec] = calc_acc(ID, QD2, CL, QL);
+0.290
+0.387
+0.445
+0.486
+0.518
+0.543
+0.565
+0.583
+0.599
+0.612
+>> [P2, LQ2, t_id2, rec2] = calc_acc(ID2, QD2, CL, QL);
+[P2, LQ2, t_id2, rec2] = calc_acc(ID2, QD2, CL, QL);
+0.247
+0.354
+0.418
+0.462
+0.496
+0.526
+0.549
+0.572
+0.588
+0.603

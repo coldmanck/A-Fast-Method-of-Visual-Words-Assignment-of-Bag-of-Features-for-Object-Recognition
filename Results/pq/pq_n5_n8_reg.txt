@@ -1,0 +1,50 @@
+before_learn_time =
+
+  134.2586
+
+before_enc_time =
+
+    9.9749
+
+before_ANN_time =
+
+   4.4718e+03
+
+0.223
+0.320
+0.380
+0.422
+0.455
+0.481
+0.502
+0.521
+0.538
+0.552
+Learning the dataset
+
+after_learn_time =
+
+  116.9299
+
+encoding the database
+
+after_enc_time =
+
+    6.9504
+
+Searching the nearest neibogher
+
+after_ANN_time =
+
+   9.9731e+03
+
+0.207
+0.299
+0.356
+0.398
+0.430
+0.456
+0.478
+0.496
+0.513
+0.528

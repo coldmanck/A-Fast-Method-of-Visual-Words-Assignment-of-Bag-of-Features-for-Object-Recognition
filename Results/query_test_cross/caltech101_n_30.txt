@@ -1,0 +1,48 @@
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:経過時間は 3560.030689 秒です。
+0.272
+0.378
+0.440
+0.483
+0.515
+0.540
+0.561
+0.578
+0.593
+0.607
+
+—-
+
+(After regularized) Searching the nearest neibogher...
+At FLANN searching:経過時間は 4036.668705 秒です。
+0.314
+0.423
+0.486
+0.529
+0.561
+0.587
+0.608
+0.625
+0.640
+0.654
+
+—— 5/28 with FLANN time ——
+(After regularized) Searching the nearest neibogher...
+4.48635e+09 -> 4486.35s
+At FLANN searching:
+flann_time =
+
+   4.6999e+03
+
+0.273
+0.381
+0.445
+0.488
+0.521
+0.547
+0.568
+0.586
+0.602
+0.616
+
+treetime = 213.55s

@@ -1,0 +1,58 @@
+a = [1,2,3]
+
+a =
+
+     1     2     3
+
+get(0, 'Diary')
+
+ans =
+
+on
+
+untitled
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+No format string.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('untitled', '/Users/DueMBA/Desktop/untitled.m', 2)" style="font-weight:bold">untitled</a> (<a href="matlab: opentoline('/Users/DueMBA/Desktop/untitled.m',2,0)">line 2</a>)
+    fprintf(a)
+} 
+untitled
+12345678910untitled
+12345678910untitled
+12345678910untitled
+12345678910untitled
+12345678910untitled
+12345678910untitled
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+Invalid file identifier.  Use fopen to generate a valid file identifier.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('untitled', '/Users/DueMBA/Desktop/untitled.m', 2)" style="font-weight:bold">untitled</a> (<a href="matlab: opentoline('/Users/DueMBA/Desktop/untitled.m',2,0)">line 2</a>)
+    fprintf(num2str(a)+'\n')
+} 
+untitled
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+Invalid file identifier.  Use fopen to generate a valid file identifier.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('untitled', '/Users/DueMBA/Desktop/untitled.m', 2)" style="font-weight:bold">untitled</a> (<a href="matlab: opentoline('/Users/DueMBA/Desktop/untitled.m',2,0)">line 2</a>)
+    fprintf(num2str(a)+'/n')
+} 
+untitled
+12345678910untitled
+1/n2/n3/n4/n5/n6/n7/n8/n9/n10/nuntitled
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+diary('log.txt')l
+ diary('log.txt')l
+                 |
+{Error: Unexpected MATLAB expression.
+} 
+diary('log.txt');
